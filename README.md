@@ -83,5 +83,3 @@ If you encounter any issues, have suggestions, or need assistance, feel free to 
 CrowdFlow Mobile is released under the [MIT License](LICENSE).
 
 ---
-
-**Note:** This readme provides a general overview and instructions for setting up CrowdFlow Mobile. Please refer to the official documentation for more detailed information and troubleshooting guidelines.
