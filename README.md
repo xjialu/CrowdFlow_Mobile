@@ -82,4 +82,3 @@ If you encounter any issues, have suggestions, or need assistance, feel free to 
 
 CrowdFlow Mobile is released under the [MIT License](LICENSE).
 
----
