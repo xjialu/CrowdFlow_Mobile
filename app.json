@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "CrowdFlow_Mobile",
+    "slug": "CrowdFlow_Mobile"
+  }
+}
