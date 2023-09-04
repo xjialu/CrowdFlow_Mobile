@@ -4,6 +4,7 @@ import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 import Welcome from "./home/welcome/Welcome";
 import Nearbystalls from "./home/nearby/Nearbystalls";
 import Popularstalls from "./home/popular/Popularstalls";
+import MapWidget from "./home/map/MapWidget";
 
 // job details screen
 import Company from "./jobdetails/company/Company";
@@ -25,5 +26,6 @@ export {
   JobAbout,
   JobFooter,
   Specifics,
-  NearbyStallsCard
+  NearbyStallsCard,
+  MapWidget,
 };
