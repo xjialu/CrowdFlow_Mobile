@@ -5,7 +5,7 @@ import { COLORS, icons, images, SIZES } from '../constants';
 import { Nearbystalls, Popularstalls, ScreenHeaderBtn, Welcome, MapWidget } from '../components';
 import { Drawer } from "expo-router/drawer"
 
-const Home = () => {
+const Map = () => {
 
     const router = useRouter();
 
@@ -25,22 +25,11 @@ const Home = () => {
                 headerTitle: "",
             }}
         />
+        <View>
+        </View>
 
-        <ScrollView showsVerticalScrollIndicator={false}>
-            <View
-                style={{
-                    flex: 1,
-                    padding: SIZES.medium,
-                }}
-                >
-                <Welcome />
-                <MapWidget />
-                <Popularstalls />
-                <Nearbystalls />
-            </View>
-        </ScrollView>
     </SafeAreaView>
   )
 }
 
-export default Home;
+export default Map;
