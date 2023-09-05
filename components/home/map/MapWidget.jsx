@@ -1,17 +1,13 @@
-import { useState } from 'react';
 import { 
-  View, Text, TouchableOpacity, FlatList, ActivityIndicator 
+  View, Text, TouchableOpacity
 } from 'react-native';
 import { useRouter } from 'expo-router';
 import styles from './mapwidget.style';
-import { COLORS, SIZES } from '../../../constants';
-import PopularStallsCard from '../../common/cards/popular/PopularStallsCard';
-import { isLoaded } from 'expo-font';
+import { Button } from "@react-native-material/core";
+import { Surface } from "@react-native-material/core";
 
 const MapWidget = () => {
   const router = useRouter();
-  const isLoading = false;
-  const error = false;
   const goToMap = () => {
     router.push('/map');
   }
@@ -23,11 +19,12 @@ const MapWidget = () => {
           Map
         </Text>
       </View>
-      <TouchableOpacity style={styles.container} onPress={goToMap}>
-        <Text>
-          map
-        </Text>
-      </TouchableOpacity>
+      <Surface
+        elevation={2}
+        margin={10}
+        category="medium"
+        style={{ width: 380, height: 150 }}
+      />
     </View>
   )
 }

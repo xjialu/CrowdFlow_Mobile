@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Stack, useRouter } from 'expo-router';
 import { COLORS, icons, images, SIZES } from '../constants';
 import { Nearbystalls, Popularstalls, ScreenHeaderBtn, Welcome, MapWidget } from '../components';
-import { Drawer } from "expo-router/drawer"
+import { RouterActions } from 'expo-router';
 
 const Home = () => {
 
