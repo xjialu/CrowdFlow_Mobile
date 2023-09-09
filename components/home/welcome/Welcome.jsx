@@ -8,9 +8,9 @@ import {
   FlatList 
 } from 'react-native'
 import { useRouter } from 'expo-router';
-
 import styles from './welcome.style'
 import { icons, SIZES } from '../../../constants'
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
 const stallTypes = ["IT", "Business", "Engineering", "Science", "Arts", "Others"]
 
@@ -52,7 +52,6 @@ const Welcome = () => {
             style={styles.tab(activeStallType, item)}
             onPress={() => {
               setActiveStallType(item);
-              router.push('/search/${item}')
             }}
             >
                 <Text style={styles.tabText(activeStallType, item)}>{item}</Text>
