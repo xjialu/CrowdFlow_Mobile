@@ -25,6 +25,8 @@ const Map = () => {
                 headerTitle: "",
             }}
         />
+
+        
         <View>
         </View>
 
