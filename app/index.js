@@ -2,7 +2,7 @@ import { View, ScrollView, SafeAreaView, Image} from 'react-native';
 import { useState } from 'react';
 import { Stack, useRouter } from 'expo-router';
 import { COLORS, icons, images, SIZES } from '../constants';
-import { Nearbystalls, Popularstalls, ScreenHeaderBtn, Welcome, MapWidget } from '../components';
+import { Nearbystalls, Popularstalls, ScreenHeaderBtn, Welcome, MapWidget, Navbar } from '../components';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 const Drawer = createDrawerNavigator();
@@ -45,6 +45,7 @@ const Home = () => {
                     <MapWidget />
                     <Popularstalls />
                     <Nearbystalls />
+                    {/* <Navbar /> under construction */}
                 </View>
             </ScrollView>
         </SafeAreaView>
