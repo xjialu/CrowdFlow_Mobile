@@ -10,7 +10,7 @@ const PopularStallsCard = ({ item, selectedJob, handleCardPress }) => {
     >
       <TouchableOpacity style={styles.logoContainer(selectedJob, item)}>
         <Image
-          source={ require("/Users/xujialu/Desktop/CrowdFlow_Mobile/assets/icons/amazon.png") } 
+          source={ require("../../../../assets/icons/amazon.png") } 
           resizeMode="contain"
           style={styles.logoImage}
           />

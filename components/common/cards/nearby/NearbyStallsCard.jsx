@@ -10,7 +10,7 @@ const NearbyStallsCard = ({ stall, handleNavigate }) => {
       <TouchableOpacity style={styles.logoContainer}>
         <Image
           source={
-            require=("/Users/xujialu/Desktop/CrowdFlow_Mobile/assets/icons/amazon.png")
+            require=("../../../../assets/icons/amazon.png")
           }
           resizeMode='contain'
           style={styles.logImage}
