@@ -5,17 +5,7 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router",
-      "@rnmapbox/maps",
-        {
-          "RNMapboxMapsImpl": "mapbox",
-
-          "RNMapboxMapsDownloadToken": "sk.ey...qg"
-        },
-      "expo-location",
-        {
-          "locationWhenInUsePermission": "Show current location on map."
-        }
+      "expo-router"
     ],
     "name": "CrowdFlow_Mobile",
     "slug": "CrowdFlow_Mobile"

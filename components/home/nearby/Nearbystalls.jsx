@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, FlatList } from 'react-native'
 import { SIZES } from '../../../constants'
+import NearbyStallsCard from '../../common/cards/nearby/NearbyStallsCard'
 import PopularStallsCard from '../../common/cards/popular/PopularStallsCard'
 
 import styles from './nearbystalls.style'
@@ -21,9 +22,9 @@ const Nearbystalls = () => {
 
       <View style={styles.cardsContainer}>
         <FlatList
-          data = {"1,2,3,4,5"}
+          data = {"1,2"}
           renderItem = {({item}) => (
-            <PopularStallsCard
+            <NearbyStallsCard
             item={item}
             // selectedJob={selectedJob}
             // handleCardPress={handleCardPress}
