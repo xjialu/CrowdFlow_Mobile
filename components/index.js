@@ -10,6 +10,9 @@ import Navbar from "./common/navbar/Navbar";
 import PopularStallsCard from "./common/cards/popular/PopularStallsCard";
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 
+// map
+import ActivityStatus  from "./map/activity/ActivityStatus";
+
 export {
   ScreenHeaderBtn,
   Welcome,
@@ -18,5 +21,6 @@ export {
   PopularStallsCard,
   NearbyStallsCard,
   MapWidget,
-  Navbar
+  Navbar,
+  ActivityStatus,
 };
