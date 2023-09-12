@@ -9,6 +9,9 @@ import MapWidget from "./home/map/MapWidget";
 // common
 import NearbyStallsCard from "./common/cards/nearby/NearbyStallsCard";
 
+// map
+import ActivityStatus  from "./map/activity/ActivityStatus";
+
 export {
   ScreenHeaderBtn,
   Welcome,
@@ -16,4 +19,5 @@ export {
   Popularstalls,
   NearbyStallsCard,
   MapWidget,
+  ActivityStatus
 };
