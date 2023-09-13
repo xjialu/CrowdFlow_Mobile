@@ -22,9 +22,5 @@ export {
   NearbyStallsCard,
   MapWidget,
   Navbar,
-<<<<<<< HEAD
   ActivityStatus,
-=======
-  ActivityStatus
->>>>>>> e778c81 (Chore: Cleanup)
 };
