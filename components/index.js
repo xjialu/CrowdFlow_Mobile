@@ -21,6 +21,6 @@ export {
   PopularStallsCard,
   NearbyStallsCard,
   MapWidget,
-  Navbar
-  ActivityStatus
+  Navbar,
+  ActivityStatus,
 };

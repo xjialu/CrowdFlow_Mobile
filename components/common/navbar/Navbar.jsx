@@ -1,39 +1,36 @@
-import styles from "./Navbar.styles"
-import Icon from 'react-native-ico-material-design';
-import { View, Text, TouchableOpacity, Image } from 'react-native'
+import styles from "./Navbar.style"
+import { View, Text, TouchableOpacity, Image, Pressable, StyleSheet} from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { useRouter } from 'expo-router'
+import { AntDesign, Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
+const router = useRouter();
+const goToMap = () => {
+  router.push('/map');
+}
 
 const Navbar = () => {
     return (
-        <Tab.Navigator
-          screenOptions={({ route }) => ({
-            tabBarIcon: ({ focused, color, size }) => {
-              let iconName;
-    
-              if (route.name === 'index') {
-                iconName = focused ? 'home' : 'home-outline';
-              } else if (route.name === 'index') {
-                iconName = focused ? 'star' : 'star-outline';
-              } else if (route.name === 'map') {
-                iconName = focused ? 'map' : 'map-outline';
-              } else if (route.name === 'settings') {
-                iconName = focused ? 'settings' : 'settings-outline';
-              }
-              return <MaterialIcons name={iconName} size={size} color={color} />;
-            },
-          })}
-          tabBarOptions={{
-            activeTintColor: 'tomato',
-            inactiveTintColor: 'gray',
-          }}
-        >
-          <Tab.Screen name="Home" component={index} />
-          <Tab.Screen name="Recommendations" component={index} />
-          <Tab.Screen name="Map" component={Mmap} />
-          <Tab.Screen name="Settings" component={map} />
-        </Tab.Navigator>
+        <View style={styles.NavContainer}>
+          <View style={styles.NavBar}>
+            <View style={styles.IconBehave}>
+              <Pressable>
+              <AntDesign name="home" size={26} color="white" />
+              </Pressable>
+              <Pressable>
+              <Ionicons name="ios-map-outline" size={26} color="white" />
+              </Pressable>
+              <Pressable>
+              <AntDesign name="bulb1" size={26} color="white" />
+              </Pressable>
+              <Pressable>
+              <Ionicons name="ios-settings-outline" size={26} color="white" />
+              </Pressable>
+            </View>
+          </View>
+
+        </View>
       );
 }
 
