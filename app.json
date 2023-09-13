@@ -5,7 +5,14 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "maplibre",
+          "RNMapboxMapsDownloadToken": "pk.eyJ1IjoiZXZhbnlhbjEzIiwiYSI6ImNsbWJxdjZicTBycngzaGw1YzU3c2FkaHQifQ.S-X2FSWIpbSY8S2cJXzaEw"
+        }
+      ]
     ],
     "name": "CrowdFlow_Mobile",
     "slug": "CrowdFlow_Mobile"
