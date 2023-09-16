@@ -12,7 +12,7 @@ const Home = () => {
     const router = useRouter();
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
+        <SafeAreaView style={{flex:1, backgroundColor: COLORS.lightWhite }}>
             <Stack.Screen 
                 options = {{
                     headerStyle: {backgroundColor: COLORS.lightWhite },
@@ -33,11 +33,9 @@ const Home = () => {
                     headerTitle: ""
                 }}
             />
-
             <ScrollView showsVerticalScrollIndicator={false}>
                 <View
                     style={{
-                        flex: 1,
                         padding: SIZES.medium,
                     }}
                     >
@@ -45,9 +43,9 @@ const Home = () => {
                     <MapWidget />
                     <Popularstalls />
                     <Nearbystalls />
-                    {/* <Navbar /> under construction */}
                 </View>
             </ScrollView>
+            <Navbar />
         </SafeAreaView>
     )
 }
