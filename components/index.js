@@ -11,7 +11,8 @@ import PopularStallsCard from "./common/cards/popular/PopularStallsCard";
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 
 // map
-import ActivityStatus  from "./map/activity/ActivityStatus";
+import ActivityStatus from "./map/activity/ActivityStatus";
+import MapViewWidget from "./map/mapview/MapViewWidget";
 
 export {
   ScreenHeaderBtn,
@@ -23,4 +24,5 @@ export {
   MapWidget,
   Navbar,
   ActivityStatus,
+  MapViewWidget
 };
