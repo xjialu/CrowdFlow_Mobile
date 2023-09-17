@@ -5,13 +5,13 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import styles from './nearbystallscard.style'
 
 const imageMap = {
-  Amazon: require('../../../../assets/icons/Amazon.png'),
-  Apple: require('../../../../assets/icons/Apple.png'),
-  Microsoft: require('../../../../assets/icons/Microsoft.png'),
-  Figma: require('../../../../assets/icons/Figma.png'),
-  Linkedin: require('../../../../assets/icons/Linkedin.png'),
-  Slack: require('../../../../assets/icons/Slack.png'),
-  Twitch: require('../../../../assets/icons/Twitch.png'),
+  Amazon: require('../../../../assets/icons/amazon.png'),
+  Apple: require('../../../../assets/icons/apple.png'),
+  Microsoft: require('../../../../assets/icons/microsoft.png'),
+  Figma: require('../../../../assets/icons/figma.png'),
+  Linkedin: require('../../../../assets/icons/linkedin.png'),
+  Slack: require('../../../../assets/icons/slack.png'),
+  Twitch: require('../../../../assets/icons/twitch.png'),
 };
 
 const NearbyStallsCard = ({ stall, handleNavigate }) => {
