@@ -35,6 +35,13 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         
     },
+
+    Pill: {
+        borderRadius: 40,
+        width:"20%",
+        height:"70%",
+        backgroundColor: COLORS.secondary,
+    },
   })
 
 export default styles;
