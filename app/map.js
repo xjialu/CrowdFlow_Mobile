@@ -26,7 +26,7 @@ const Map = () => {
                 }}
             />
             <MapViewWidget />
-            <Navbar />
+            <Navbar defaultPage={'map'}/>
         </View>
     )
 }

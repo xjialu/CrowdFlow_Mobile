@@ -22,10 +22,10 @@ const Nearbystalls = () => {
 
       <View style={styles.cardsContainer}>
         <FlatList
-          data = {"1,2"}
+          data = {["Apple", "Amazon", "Figma", "Slack", "Twitch", "Linkedin", "Microsoft"]}
           renderItem = {({item}) => (
             <NearbyStallsCard
-            item={item}
+            stall={item}
             // selectedJob={selectedJob}
             // handleCardPress={handleCardPress}
             />
