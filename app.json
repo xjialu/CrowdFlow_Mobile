@@ -1,20 +1,34 @@
 {
-  "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "@rnmapbox/maps",
-        {
-          "RNMapboxMapsImpl": "maplibre",
-          "RNMapboxMapsDownloadToken": "pk.eyJ1IjoiZXZhbnlhbjEzIiwiYSI6ImNsbWJxdjZicTBycngzaGw1YzU3c2FkaHQifQ.S-X2FSWIpbSY8S2cJXzaEw"
-        }
-      ]
-    ],
-    "name": "CrowdFlow_Mobile",
-    "slug": "CrowdFlow_Mobile"
-  }
+	"expo": {
+		"scheme": "acme",
+		"web": {
+			"bundler": "metro"
+		},
+		"plugins": [
+			"expo-router",
+			[
+				"@rnmapbox/maps",
+				{
+					"RNMapboxMapsImpl": "maplibre",
+					"RNMapboxMapsDownloadToken": "pk.eyJ1IjoiZXZhbnlhbjEzIiwiYSI6ImNsbWJxdjZicTBycngzaGw1YzU3c2FkaHQifQ.S-X2FSWIpbSY8S2cJXzaEw"
+				}
+			]
+		],
+		"name": "CrowdFlow_Mobile",
+		"slug": "CrowdFlow_Mobile",
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "6711854c-5059-43e5-9d6a-eeecf6af8f81"
+			}
+		},
+		"android": {
+			"package": "com.evanyan13.CrowdFlow_Mobile",
+			"config": {
+				"googleMaps": { "apiKey": "AIzaSyCpdprHnE7rXE7uMh-hLnmJR8K8THmdUtk" }
+			}
+		}
+	}
 }
