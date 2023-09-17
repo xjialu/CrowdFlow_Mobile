@@ -33,6 +33,7 @@ const MapWidget = () => {
             source={require("../../../assets/images/map.png")}
             style={{
               width: 380,
+              borderRadius: 50,
               height: 200,
               justifyContent: "center",
             }}
