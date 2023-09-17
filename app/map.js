@@ -17,7 +17,7 @@ const Map = () => {
                     headerTransparent: true,
                     headerShadowVisible: false,
                     headerLeft: () => (
-                        <ScreenHeaderBtn iconUrl={icons.left} dimension='60%' onPress={goToHome} />
+                        <ScreenHeaderBtn iconUrl={icons.left} dimension='60%' handlePress={goToHome} />
                     ),
                     headerRight: () => (
                         <ScreenHeaderBtn iconUrl={images.profile} dimension='60%' />
