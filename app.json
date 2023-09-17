@@ -27,7 +27,7 @@
 		"android": {
 			"package": "com.evanyan13.CrowdFlow_Mobile",
 			"config": {
-				"googleMaps": { "apiKey": "AIzaSyCpdprHnE7rXE7uMh-hLnmJR8K8THmdUtk" }
+				"googleMaps": { "apiKey": "@env.GOOGLE_MAPS_API_KEY" }
 			}
 		}
 	}

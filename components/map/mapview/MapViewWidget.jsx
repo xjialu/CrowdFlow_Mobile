@@ -72,15 +72,13 @@ const MapViewWidget = () => {
         <MapView
             provider={PROVIDER_GOOGLE}
             style={styles.map}
-            //initialRegion={currentLocation}
+            // initialRegion={currentLocation}
             camera={camera}
-            showsUserLocation='true'
-            showsBuildings='true'
         >
             <Heatmap
                 points={points}
                 opacity={0.7}
-                radius={100}
+                radius={50}
                 gradient={gradient}
             />
         </MapView>
