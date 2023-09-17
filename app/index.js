@@ -45,7 +45,7 @@ const Home = () => {
                     <Nearbystalls />
                 </View>
             </ScrollView>
-            <Navbar />
+            <Navbar defaultPage={'home'}/>
         </SafeAreaView>
     )
 }

@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     padding: SIZES.medium,
+    marginBottom: 15,
     borderRadius: SIZES.small,
     backgroundColor: "#FFF",
     ...SHADOWS.medium,
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  logImage: {
+  logoImage: {
     width: "70%",
     height: "70%",
   },
