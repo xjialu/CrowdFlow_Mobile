@@ -1,4 +1,4 @@
-import { 
+import {
   View, Text, TouchableOpacity, ImageBackground
 } from 'react-native';
 import { useRouter } from 'expo-router';
@@ -25,21 +25,21 @@ const MapWidget = () => {
           margin={10}
           category="medium"
           style={{
-            overflow:"hidden",
-            justifyContent:"center"
+            overflow: "hidden",
+            justifyContent: "center"
           }}
         >
           <ImageBackground
             source={require("../../../assets/images/map.png")}
             style={{
-              width:380,
-              height:200,
-              justifyContent:"center",
+              width: 380,
+              height: 200,
+              justifyContent: "center",
             }}
           >
           </ImageBackground>
         </Surface>
-          
+
       </TouchableOpacity>
     </View>
   )
