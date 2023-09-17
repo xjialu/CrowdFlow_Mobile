@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'expo-router';
 import styles from './mapview.style';
+import { View } from 'react-native'
 import MapView, { Heatmap, PROVIDER_GOOGLE } from 'react-native-maps';
 
 const MapViewWidget = () => {
@@ -72,7 +73,7 @@ const MapViewWidget = () => {
         <MapView
             provider={PROVIDER_GOOGLE}
             style={styles.map}
-            // initialRegion={currentLocation}
+            initialRegion={currentLocation}
             camera={camera}
         >
             <Heatmap

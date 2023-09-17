@@ -11,7 +11,7 @@ const Map = () => {
     }
 
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ height: '100%', width: '100%' }}>
             <Stack.Screen
                 options={{
                     headerTransparent: true,
@@ -26,7 +26,7 @@ const Map = () => {
                 }}
             />
             <MapViewWidget />
-            <Navbar defaultPage={'map'}/>
+            <Navbar defaultPage={'map'} />
         </View>
     )
 }

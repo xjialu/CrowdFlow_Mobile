@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     //     flex: 'contain'
     // },
     map: {
-        ...StyleSheet.absoluteFillObject,
+        flex: 1,
     },
 })
 
