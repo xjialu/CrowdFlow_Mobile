@@ -15,7 +15,7 @@ const Navbar = () => {
         <View style={styles.NavContainer}>
           <View style={styles.NavBar}>
             <View style={styles.IconBehave}>
-              <Pressable>
+              <Pressable onPress={goToMap} >
               <AntDesign name="home" size={26} color="white" />
               </Pressable>
               <Pressable>
