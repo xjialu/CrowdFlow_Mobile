@@ -22,16 +22,16 @@ const Navbar = ({ defaultPage }) => {
           <View style={styles.NavBar}>
             <View style={styles.IconBehave}>
               <Pressable onPress={goToHome}>
-              <AntDesign name="home" size={26} color={activePage === 'home' ? COLORS.tertiary : 'white'} />
+              <AntDesign name="home" size={26} color={activePage === 'home' ? 'white' : COLORS.secondary} />
               </Pressable>
               <Pressable onPress={goToMap}>
-              <Ionicons name="ios-map-outline" size={26} color={activePage === 'map' ? COLORS.tertiary : 'white'} />
+              <Ionicons name="ios-map-outline" size={26} color={activePage === 'map' ? 'white' : COLORS.secondary} />
               </Pressable>
               <Pressable>
-              <AntDesign name="bulb1" size={26} color="white" />
+              <AntDesign name="bulb1" size={26} color={COLORS.secondary} />
               </Pressable>
               <Pressable>
-              <Ionicons name="ios-settings-outline" size={26} color="white" />
+              <Ionicons name="ios-settings-outline" size={26} color={COLORS.secondary} />
               </Pressable>
             </View>
           </View>
